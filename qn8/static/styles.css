@@ -1,0 +1,82 @@
+/* static/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.flash-messages {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.flash-messages li {
+    color: #d9534f;
+    background-color: #f2dede;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
